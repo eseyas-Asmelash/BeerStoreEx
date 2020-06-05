@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="Style/form.css">
+    <title>Beer Store</title>
+</head>
+<body>
+    <nav class="topnav">
+        <div>
+            <a class="logo" href="index.html"><img src="Images/logo.png"></a>
+            <a href="index.html">Home</a>
+            <a  href="all-beers.html">See All Beers</a>
+            <a class="active" href="order.html">Order a Beer</a>
+            <a class="right" href="register.html">Register</a>
+            <a class="right" href="login.html">log in</a>
+        </div>
+    </nav>
+    <main>
+        <center>
+        <h1>Order a beer</h1>
+        <br>
+        <form>
+            <label>Brand</label>
+            <select>
+                <option selected disabled>Select brand</option>
+                <option value="Corona">Corona</option>
+                <option value="Stella Artois">Stella Artois</option>
+                <option value="Carlsberg">carlsberg</option>
+                <option value="Heineken">Heineken</option>
+              </select>
+            <label>Quantity</label>
+            <input type="number" min="1" max="15" placeholder="Enter amount of beers (1-15)"
+             type="password">
+            <label>Destination</label>
+            <select>
+                <option selected disabled>Select a destination</option>
+              </select>
+            <label>Enter your birth date</label>
+            <input placeholder="Enter your password" type="date">
+            <label>Got an opinion, comment, recommendation? share it with us</label>
+            <textarea  placeholder="Share your opinion with us.." style="height:200px"></textarea>
+            <input value="Send Order" type="submit">
+
+        </form>
+        </center>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2017 &dash; SoftUni Beers</p>
+    </footer>
+</body>
+</html>
